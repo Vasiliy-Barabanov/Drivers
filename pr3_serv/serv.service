@@ -1,0 +1,9 @@
+[Unit]
+Description = Simple systemd service 
+
+[Service]
+Type = simple
+ExecStart = /home/drvw/Services/serv.sh
+
+[Install]
+WantedBy = multi-user.target
